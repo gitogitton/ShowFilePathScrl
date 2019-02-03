@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_title1_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="@string/default_path"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_title1_d_fileDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_file_dir"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_data1_d_fileDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/defalult_data"
+                android:textSize="@dimen/default_textSize"/>
+
+            <TextView
+                android:id="@+id/textView_title1_d_cacheDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_cache_dir"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_data1_d_cacheDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/defalult_data"
+                android:textSize="@dimen/default_textSize"/>
+
+            <TextView
+                android:id="@+id/textView_title1_d_extFilesDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_external_file_dir"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_data1_d_extFilesDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/defalult_data"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_title1_d_extCacheDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_external_cache_dir"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/default_textSize"/>
+
+            <TextView
+                android:id="@+id/textView_data1_d_extCacheDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/defalult_data"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_title1_context"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context_path"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/default_textSize"  />
+
+            <TextView
+                android:id="@+id/textView_title1_c_fileDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_file_dir"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_data1_c_fileDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/defalult_data"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_title1_c_cacheDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_cache_dir"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/default_textSize"  />
+
+            <TextView
+                android:id="@+id/textView_data1_c_cacheDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/defalult_data"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_title1_c_extFilesDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_external_file_dir"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_data1_c_extFilesDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/defalult_data"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_title1_c_extCacheDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_external_cache_dir"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_data1_c_extCacheDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/defalult_data"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_title1_enviroment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enviroment"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/default_textSize"  />
+
+            <TextView
+                android:id="@+id/textView_title1_e_fileDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_file_dir"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_data1_e_fileDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/defalult_data"
+                android:textSize="@dimen/default_textSize" />
+
+            <TextView
+                android:id="@+id/textView_title1_e_cacheDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_cache_dir"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/default_textSize"  />
+
+            <TextView
+                android:id="@+id/textView_data1_e_cacheDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/defalult_data"
+                android:textSize="@dimen/default_textSize" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

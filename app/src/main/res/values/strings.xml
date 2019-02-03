@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShowFilePathScrl</string>
+    <string name="default_path">[ default ]</string>
+    <string name="d_file_dir">( files dir )</string>
+    <string name="defalult_data">dddd</string>
+    <string name="d_cache_dir">( cache dir )</string>
+    <string name="d_external_file_dir">( external files dir )</string>
+    <string name="d_external_cache_dir">( external cache dir )</string>
+    <string name="context_path">[ context ]</string>
+    <string name="enviroment">[ enviroment ]</string>
+</resources>
